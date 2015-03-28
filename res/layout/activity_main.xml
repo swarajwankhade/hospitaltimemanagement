@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doctor1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to a personalized app!!!"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:text="Hospital Time Management"
+            android:textColor="#000000"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SignIn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#1E90FF"
+            android:text="Login"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/SignIn"
+            android:layout_marginTop="15dip"
+            android:background="#1E90FF"
+            android:text="Register as a user now!!!"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
